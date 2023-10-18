@@ -1,0 +1,22 @@
+.c1{
+    border: 2px solid blueviolet;
+    margin: 5px;
+    padding: 10px;
+}
+.c2{
+    border: 2px solid crimson;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+}
+.c3{
+    border: 2px solid darkblue;
+    margin: 5px;
+    padding: 10px;
+}
+.c4{
+    border: 2px solid blueviolet;
+    margin: 5px;
+    padding: 10px;
+}
