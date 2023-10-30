@@ -1,0 +1,42 @@
+ /* converting block level to inline using display:flex */
+ section {
+    display: flex;
+}
+
+/* grouping selector */
+/* selecting all section and div elements */
+section,
+div {
+    /* border: 1px solid blue; */
+    background-color: royalblue;
+    border-radius: 5px;
+
+    /* adding padding to section and div */
+    padding: 2px;
+
+}
+
+/* decendent selectors  */
+/* selecting only div elements */
+/* using flex:1 it will divide into equal partitions */
+section div {
+    flex: 1;
+    margin: 10px;
+}
+
+section div:first-child {
+    flex: 4;
+}
+
+section div p {
+    padding: 20px;
+    
+    margin: 5px;
+}
+
+select {
+    border: none;
+    color: white;
+    font-size: large;
+    background-color: royalblue;
+}

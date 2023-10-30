@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: flex;
+        }
+         div{
+            /*border: 2px solid blue;*/
+            margin-bottom: 2px;
+            padding: 10px;
+            flex: 1;
+            margin: 2px;
+        }
+        div:nth-child(1){
+            flex: 3;}
+        body{
+            background-color: beige;
+        }
+        .services{
+            font-size: 18px;
+            line-height: 78px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .logo{
+            color: red;
+            font-weight: 900;
+            line-height: 70px;
+            padding-left: 170px;
+            font-size: 60px;
+        }
+        .button{
+            font-size: 18px;
+            background-color: #e9204f;
+            color: #fff;
+            height: 35px;
+            margin-top: 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            line-height: 33px;
+            text-align: center;
+            /*padding-left: 50px;*/
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="logo">kona</div>
+        <div class="services">Products</div>
+        <div class="services">Solutions</div>
+        <div class="services">Services</div>
+        <div class="services">Pricing</div>
+        <div class="button">Try for free</div>
+        <div></div>
+    </section>
+</body>
+</html>
